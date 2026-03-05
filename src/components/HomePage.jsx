@@ -29,6 +29,7 @@ const HomePage = () => {
           <Link to="/documentacion" className="link-btn">
             DOCUMENTACION PARCIAL 1
           </Link>
+          <a href="metodologias.html" class="link-style">METODOLOGÍAS DE DESARROLLO</a>
         </div>
       </div>
     </div>
