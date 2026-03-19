@@ -30,7 +30,7 @@ const HomePage = () => {
             DOCUMENTACION PARCIAL 1
           </Link>
           <a href="/metodologias.html" className="link-btn">DOCUMENTACION PARCIAL 2</a>
-          <a href="/Login.jsx" className="link-btn">Log-in</a>
+          <Link to="/login" className="link-btn">Log-in</Link>
         </div>
       </div>
     </div>
