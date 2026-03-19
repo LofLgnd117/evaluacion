@@ -30,6 +30,9 @@ const HomePage = () => {
             DOCUMENTACION PARCIAL 1
           </Link>
           <a href="/metodologias.html" className="link-btn">DOCUMENTACION PARCIAL 2</a>
+          <Link to="/login" className="link-btn">
+            Login
+          </Link>
         </div>
       </div>
     </div>
