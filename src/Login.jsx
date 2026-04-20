@@ -12,7 +12,7 @@ const Login = () => {
   };
 
   return (
-    <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
+    <GoogleOAuthProvider clientId="864344236168-kd2tkpu8nl02gdctmkosrdacc206rjvu.apps.googleusercontent.com">
       <div className="login-container" style={{ backgroundColor: '#1a1a1a', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
         <GoogleLogin
           onSuccess={handleSuccess}
