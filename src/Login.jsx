@@ -1,7 +1,26 @@
-export default function Login() {
-    return (
-        <div>
-            <h1>Ready to create my log-in with google</h1>
-        </div>
-    );
-}
+import React from 'react';
+import { GoogleOAuthProvider, GoogleLogin } from '@react-oauth/google';
+import { useNavigate } from 'react-router-dom';
+
+const Login = () => {
+  const navigate = useNavigate();
+
+  const handleSuccess = (credentialResponse) => {
+    console.log(credentialResponse);
+    // In a real app, you'd decode this to get the user's name
+    navigate('/dashboard'); 
+  };
+
+  return (
+    <GoogleOAuthProvider clientId="YOUR_GOOGLE_CLIENT_ID">
+      <div className="login-container" style={{ backgroundColor: '#1a1a1a', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+        <GoogleLogin
+          onSuccess={handleSuccess}
+          onError={() => console.log('Login Failed')}
+        />
+      </div>
+    </GoogleOAuthProvider>
+  );
+};
+
+export default Login;
