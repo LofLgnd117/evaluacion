@@ -15,7 +15,7 @@ const Dashboard = () => {
           <a href="/ERS_Artemis.docx" download className="dash-btn">
             DESCARGAR DOCUMENTO ERS DEL PROYECTO
           </a>
-          <a href="https://utd-team-z3wt1vve.atlassian.net/jira/software/projects/SCRUM/board" 
+          <a href="https://utd-team-bct3gry.atlassian.net/jira/software/projects/KAN/boards/1?atlOrigin=eyJpIjoiYjFlNzI2ZmRjNDExNDU5NTk4NWU3YzNlYjhmN2ZlM2YiLCJwIjoiaiJ9" 
              target="_blank" rel="noreferrer" className="dash-btn">
             TABLERO JIRA PROYECTO SIBA
           </a>
