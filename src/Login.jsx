@@ -5,12 +5,10 @@ import { useNavigate } from 'react-router-dom';
 const Login = () => {
   const navigate = useNavigate();
 
-  const handleSuccess = (credentialResponse) => {
-    console.log(credentialResponse);
-    // In a real app, you'd decode this to get the user's name
-    navigate('/dashboard'); 
-  };
-
+const handleSuccess = (credentialResponse) => {
+  console.log('Acceso concedido');
+  navigate('/dashboard'); // Esto debe coincidir con el path de App.jsx
+};
   return (
     <GoogleOAuthProvider clientId="864344236168-kd2tkpu8nl02gdctmkosrdacc206rjvu.apps.googleusercontent.com">
       <div className="login-container" style={{ backgroundColor: '#1a1a1a', height: '100vh', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
