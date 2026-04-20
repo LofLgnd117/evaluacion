@@ -25,7 +25,7 @@ const HomePage = () => {
             LINKED IN DE MI PROFILE
           </a>
           
-          {/* Usamos el componente Link de React Router para navegación interna */}
+          {/* En tu HomePage.jsx, cambia el <a> por <Link> */}
           <Link to="/documentacion" className="link-btn">
             DOCUMENTACION PARCIAL 1
           </Link>
