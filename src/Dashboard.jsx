@@ -7,7 +7,7 @@ const Dashboard = () => {
     <div className="dashboard-container">
       <div className="dashboard-card">
         <img src="/assets/Foto.jpeg" alt="Avatar" className="dashboard-avatar" />
-        <h1 className="welcome-text">Bienvenido(a), Fernanda Sosa</h1>
+        <h1 className="welcome-text">Bienvenido Leonardo Flores</h1>
         <h2 className="parcial-title">EVALUACIÓN PARCIAL 3</h2>
 
         <div className="button-stack">

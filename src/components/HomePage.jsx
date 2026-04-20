@@ -10,7 +10,7 @@ const HomePage = () => {
         {/* Asegúrate de que el nombre de la imagen coincida con el que pusiste en public/assets */}
         <img src="/assets/Foto.jpeg" alt="Avatar 3D" className="avatar-image" />
         
-        <h1 className="main-title">Evaluación parcial 1</h1>
+        <h1 className="main-title">Evaluación</h1>
         
         <h2 className="student-name">Leonardo Javier Flores Verdin</h2>
         
